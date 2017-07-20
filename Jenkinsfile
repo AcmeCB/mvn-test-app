@@ -5,7 +5,7 @@ node {
             jdk: 'JDK8', 
             maven: 'M3', 
             mavenSettingsConfig: 'maven-settings-for-supply-chain-build-job') {
-            sh "mvn clean deploy"
+            sh "mvn clean install"
         }
     }
 }
